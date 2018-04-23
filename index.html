@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>UI Challenge - 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300|Source+Sans+Pro:600" rel="stylesheet">
+
+    <link rel="stylesheet" href="public/styles/base.css">
+    <link rel="stylesheet" href="public/styles/layout.css">
+    <link rel="stylesheet" href="public/styles/modules.css">
+
+</head>
+
+<body>
+    <form class="form">
+        <label>text input</label>
+        <input type="text" placeholder="placeholder text">
+        <br>
+        <label>text input w/ validation error</label>
+        <input type="text" id="val_error" placeholder="placeholder text">
+        <p id="val-error-text">please enter a valid username</p>
+        <br>
+        <select placeholder="please select an option...">
+            <option value="opt0">please select an option...</option>
+            <option value="opt1">option 1</option>
+            <option value="opt2">option 2</option>
+            <option value="opt3">option 3</option>
+            <option value="opt4">option 4</option>
+            <option value="opt5">option 5</option>
+
+        </select>
+        <br>
+        <label for="other">checkbox</label>
+        <br>
+        <input type="checkbox" name="" id="" value="">
+        <input type="checkbox" name="" id="" value="">
+        <br>
+        <label for="other">radio</label>
+        <br>
+        <input type="radio" name="" id="" value="">
+        <input type="radio" name="" id="" value="">
+        <br>
+        <label for="other">buttons</label>
+        <br>
+        <input type="submit" placeholder="submit">
+        <input type="submit" placeholder="submit" id="second-btn">
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>
